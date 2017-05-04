@@ -1,0 +1,2 @@
+class punto():
+    pass
