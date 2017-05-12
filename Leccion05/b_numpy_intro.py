@@ -42,7 +42,7 @@ print("----------------------------------------------")
 import time
 N = M = 100  # Si, puedo inicializar dos variables iguales asi
 
-a = np.empty(N*M).reshape(N, M)  # Hay que tener cuidado sando la funcion empty porque no son realmente ceros
+a = np.empty(N*M).reshape(N, M)  # Hay que tener cuidado usando la funcion empty porque no son realmente ceros
 print("Array 'vacio':\n", a[0:2, 0:2])
 b = np.random.rand(N*M).reshape(N, M)
 c = np.random.rand(N*M).reshape(N, M)
